@@ -50,7 +50,7 @@
 .mainblock {
     margin-top: 2.59%;
     height:700px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nature-design.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("gifts.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(29, 179, 15, 0.87);
+  color: blue;
   font-size: 60px;
   font-family: 'Sacramento', cursive;
 
@@ -75,12 +75,40 @@
 
 .portion1 {
     width: 100%;
-    
     background-color: blue;
     font-size: 50px;
     color: white;
     text-align: center;
-    margin: 10px 5px;
+    
+    display:inline-block;
+    
+}
+
+.box1{
+  width:60%;
+  height:250px;
+  display:inline-block; 
+  padding:0px; 
+  margin:0px;
+  background-color:pink;
+  float:left;
+}
+
+.picture1{
+  width:40%;
+  height:250px;
+  display:inline-block; 
+  /* background-color: green; */
+   background-image: url("placeholderimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+.title1{
+  background-color: green;
+  font-family: 'Sacramento', cursive;
+  font:50px; 
 }
 
 .portion2 {
