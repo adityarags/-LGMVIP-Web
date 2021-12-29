@@ -66,7 +66,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: blue;
+  color: white;
   font-size: 60px;
   font-family: 'Sacramento', cursive;
 
@@ -75,8 +75,6 @@
 
 .portion1 {
     width: 100%;
-    background-color: blue;
-    font-size: 50px;
     color: white;
     text-align: center;
     
@@ -86,29 +84,44 @@
 
 .box1{
   width:60%;
-  height:250px;
   display:inline-block; 
   padding:0px; 
   margin:0px;
-  background-color:pink;
   float:left;
+  padding:0;
 }
 
 .picture1{
   width:40%;
-  height:250px;
+  height:450px;
   display:inline-block; 
-  /* background-color: green; */
-   background-image: url("placeholderimage.jpg");
+  background-image: url("placeholderimage.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;   
+  background-size: cover;  
+  
 }
 
-.title1{
-  background-color: green;
+.description{
+  height:75%;
+  width:100%;
+  display:inline-block;
+  padding:0;
+  font-size:50px;
   font-family: 'Sacramento', cursive;
-  font:50px; 
+  color:black;
+  
+
+}
+
+
+.title1{
+  height:25%;
+  width:100%;
+  font-family: 'Sacramento', cursive;
+  font-size:100px; 
+  padding:0;
+  color:black;
 }
 
 .portion2 {
