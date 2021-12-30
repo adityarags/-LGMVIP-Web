@@ -69,7 +69,6 @@
   color: white;
   font-size: 60px;
   font-family: 'Sacramento', cursive;
-
 }
 
 
@@ -102,6 +101,16 @@
   
 }
 
+
+.title1{
+  height:25%;
+  width:100%;
+  font-family: 'Mea Culpa', cursive;
+  font-size:100px; 
+  padding:0;
+  color:black;
+}
+
 .description{
   height:75%;
   width:100%;
@@ -110,19 +119,9 @@
   font-size:50px;
   font-family: 'Sacramento', cursive;
   color:black;
-  
-
 }
 
 
-.title1{
-  height:25%;
-  width:100%;
-  font-family: 'Sacramento', cursive;
-  font-size:100px; 
-  padding:0;
-  color:black;
-}
 
 .portion2 {
     width: 100vw;
@@ -132,6 +131,16 @@
     color: white;
     text-align: center;
     margin: 10px 5px;
+}
+
+
+.discount-title{
+  height:25%;
+  width:100%;
+  font-family: 'Mea Culpa', cursive;
+  font-size:100px; 
+  padding:0;
+  color:black;
 }
 
 .portion3 {
