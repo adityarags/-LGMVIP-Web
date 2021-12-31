@@ -125,7 +125,6 @@
 
 .portion2 {
     width: 100vw;
-    height: 40vh;
     background-color: green;
     font-size: 50px;
     color: white;
@@ -142,6 +141,27 @@
   padding:0;
   color:black;
 }
+
+.discount-blocks{
+  height:75%;
+  width:100%;
+  background-color: grey;
+  padding:0;
+}
+
+.discountbox{
+  width:33.3%;
+  height:100%;
+  box-sizing: border-box;
+  float:left;
+  padding:5px;
+  border: solid;
+  border-radius: 10px;
+  color:black;
+}
+
+
+
 
 .portion3 {
     width: 100%;
