@@ -1,0 +1,3 @@
+[submodule "Task2/myapp"]
+	path = Task2/myapp
+	url = https://github.com/adityarags/LGMVIP-Web/
