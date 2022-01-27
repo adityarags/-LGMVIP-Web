@@ -1,98 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src = "app.js"></script>
-</head>
-<body>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href = "#portion4">Contact Us</a></li>
-                <li><a href = "#portion3">Testimonials</a></li>
-                <li><a href = "#portion2">Discounts</a></li>
-                <li><a href = "#portion1">What we sell</a></li>
-                <li><a href = "#mainblock">Home</a></li>
-            </ul>
-        </nav>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Gift Shop</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <a href="#mainblock" class = logo>
+        <img src="img/WebsiteLogo.png" alt="websitelogo">
+      </a>
+      <nav class="navbar">
+        <a href="#mainblock">Home</a>
+        <a href="#portion1">About</a>
+        <a href="#portion2">Products</a>
+        <a href="#portion3">Discounts</a>
+        <a href="#portion4">Contact</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
     </div>
+    </header>
 
-    <div class="mainblock" id = "mainblock">
+    <!-- Mainblock-->
+
+    <section id="mainblock" class="mainblock">
+      <div class="mainblock container">
+        <div class="title">
+          <h1>Send Gifts to your Family and Friends!</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portion 1-->
+
+    <section id="portion1" class="whatwesell">
+      <h1 class="heading"> About Us! </h1>
+      <div class="row">
+         <div class="gift-photo">
+        <img src="img/Allgifts.jpg" alt="Gifts Sold">
+        </div>
+        <div class="content">
+          <h3> Here is what we sell </h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur corrupti, beatae nemo, hic dolorem quos tempore sapiente porro sunt nihil recusandae natus delectus nisi. Rerum placeat cumque voluptas hic?</p>
+        </div>
+      </div>
+     
+    </section>
+
+    <!-- Portion 2-->
+
+    <section class="products" id="portion2">
+      <h1 class="heading"> Our Products </h2>
+      <p class="sub-heading"> Our Best Sellers! </p>
+      <p class="sub-heading">Chocolates |  Cookies | Nuts | GiftBoxes | FoodBasket </p>
+      <div class="product-boxes">
+
+
+        <div class="box">
+          <div class="image">
+            <img src="img/chocolate.png" alt="chocolates">
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="image">
+            <img src="img/cookies.png" alt="cookies">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/foodBasket.png" alt="food basket">
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="image">
+            <img src="img/giftBox.png" alt="gift box">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Portion 3-->
+
+    <section id="portion3" class="discounts">
+      <h1 class="heading"> Discounts Offered </h2>
+      <div class="discount-boxes">
+
+        <div class="discountbox" id = "discountbox">
+          
+          <h1> Discount </h1>
+          
+          <h2> Discount for Regular Customers!</h2>
+          <br>
+          <h3> Use Code: REGULAR50</h3>
+        </div>
+
+
+        <div class="discountbox" id = "discountbox1">
+          
+          <h1> Discount </h1>
+          <h2> Discount for New Customers!</h2>
+          <h3> Use Code: NEW20</h3>
+        </div>
+
+        <div class="discountbox" id = "discountbox2">
+          <h1> Discount </h1>
+          <h2> Discount for All Customers!</h2>
+          <h3> Use Code: ALL15</h3>
+        </div>
         
-        <div class="pagetitle">
-            <h1>Gift your loved ones!</h1>
-        </div>
-    </div>
+      </div>
 
-    <div class="portion1" id = "portion1">
-        <div class="box1">
-            <div class="title1">
-                What we sell
-            </div>
-            <div class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, fuga neque perferendis quas sunt fugiat facilis! Ducimus commodi odit tempora est distinctio reprehenderit amet nemo et? Eos enim iure minima.
+    </section>
 
+    <!-- Portion 4-->
+
+    <section id="portion4" class="contactus">
+      <h1 class="heading"> Contact Us! </h2>
+      <div class="row">
+        <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2798987517!2d-74.25987051245862!3d40.69767006636456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1642879942294!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+
+          <div class="inputBox">
+                <input type="text" placeholder="Name">
             </div>
-            
-        </div>
-        <div class="picture1">            
-        </div>
-        
-    </div>
 
 
-    <div class="portion2" id = "portion2">
-        <div class="discount-title">
-            Discounts
-        </div>
-        <div class="discount-blocks">
-            <div class="discountbox">
-                 <h1>Discount</h1>
-                 <br>
-                 <h2>
-                     This discount is for our regular customers
-                 </h2>
-                 <h3>
-                     Use Code: Regular50
-                 </h3>
+            <div class="inputBox">
+                <input type="email" placeholder="Email">
             </div>
-            <div class="discountbox">
-                <h1>Discount</h1>
-                 <br>
-                 <h2>
-                     This discount is for our new customers
-                 </h2>
-                 <h3>
-                     Use Code: New20
-                 </h3>
-            </div>
-            <div class="discountbox">
-                <h1>Discount</h1>
-                <br>
-                <h2>
-                    Discount for everyone!
-                </h2>
-                <h3>
-                    Use Code: All10
-                </h3>
-            </div>
-        </div>
-        
 
-    </div>
+
+            <div class="inputBox">
+                <textarea name="comment" placeholder="Your message!"></textarea>
+            </div>
+            <input type="submit" value="Send Message!" class="btn">
+        </form>
+      </div>
+    </section>
 
     
-
-    <div class="portion4" id = "portion4">
-        Contatct Us
-        
-    </div>
-
-    <script src = "app.js"></script>
-
-</body>
+    <footer class="footer">
+      <p>
+        Copyright &copy; 2022 Aditya - All rights reserved
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
